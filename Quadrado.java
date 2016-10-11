@@ -10,6 +10,8 @@ package quadrado;
  * @author neumar
  */
 public class Quadrado {
+    
+    private int aresta;
 
     /**
      * @param args the command line arguments
