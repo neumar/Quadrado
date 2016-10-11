@@ -12,12 +12,12 @@ public class Quadrado {
     
     private float aresta;
     
-    public double funcao (double aresta) {
+    public float funcao (float aresta) {
     return aresta * aresta; 
 }
     
-    public double quadradoFuncao (double aresta) {
-    double resultado = funcao (aresta);
+    public float quadradoFuncao (float aresta) {
+    float resultado = funcao (aresta);
     return resultado;
 }
 
