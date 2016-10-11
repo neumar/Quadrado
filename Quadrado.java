@@ -10,7 +10,7 @@
  */
 public class Quadrado {
     
-    private int aresta;
+    private float aresta;
 
     /**
      * @param args the command line arguments
