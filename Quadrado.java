@@ -13,12 +13,12 @@ public class Quadrado {
     private float aresta;
     
     public double funcao (double aresta) {
-    return 1 / aresta; 
+    return aresta * aresta; 
 }
     
     public double quadradoFuncao (double aresta) {
     double resultado = funcao (aresta);
-    return resultado * resultado;
+    return resultado;
 }
 
     /**
