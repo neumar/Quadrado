@@ -11,6 +11,14 @@
 public class Quadrado {
     
     private float aresta;
+    
+    public void setAresta(float aresta) {
+        this.aresta = aresta;
+    }
+    
+    public float getAresta() {
+        return aresta;
+    }
 
     /**
      * @param args the command line arguments
